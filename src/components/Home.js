@@ -15,6 +15,18 @@ class Home extends Component {
                     </ul>
                 </nav>
             </header>
+            <div class="content-wrapper">
+                <div class="content-main animate">
+                    <div class="container">
+                        <div class="center count-down animate" data-countdown-year="2018" data-countdown-month="12" data-countdown-day="21"></div>
+                        <h1 class="font-size-90">Get Ready!</h1>
+                        <h2 class="opacity-60">Something Awesome is Coming Soon</h2>
+                    </div>
+                </div>
+                <div class="background-wrapper">
+                    <canvas id="background-content"></canvas>
+                </div>
+            </div>
         </div>
       );
     }
